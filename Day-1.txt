@@ -1,0 +1,97 @@
+
+
+HF -> given 
+    1. Training of the model 
+    2. In Inference 
+
+Model -> preparation -> proprietry data
+    1. Model training -> 8 month's to train a model 
+        1. 
+    2. RAG -> dont need model training 
+        1. 
+
+LLM
+SLM -> Image identification -> language -> Ollama 8b model -> API ->  app OCR -> image -> doc
+Infrencing 
+RAG
+
+News Reuters -> 
+    LLM -> [SLA] -> Costing -> 
+    1. API -> LLM -> [SLA] -> RAG and get evaluated of data what ur generating 
+
+CLI -> 
+    rm filename.txt
+
+NLP -> 
+    1. delete the file filename.txt
+    2. move the file filename.txt to thrash 
+
+Parallel processing -> gpus - 1000+ -> task for your gpu computes and gives the response -> stored in db -> weigths 
+
+
+Training -> attention mechanisum -> LLM -> stateless service [it will not remember the previous question ]
+
+AI Application -> Memory -> questions -> consolidate and send request -> LLM 
+         -> Q1 
+         -> Q2 
+         -> Q3 -> 
+
+
+Recap: 
+    GenAI: AI -> ML -> SL -> [algo, LR, HMM, ..., ],UL, ..., DL ANN, -> genai [Data+Algo] 
+        -> Model's -> SLM or LLM -> brain 
+            -> discriminative, 
+            -> grenerative -> 
+
+    Model -> Cut off date ->
+            data: text, image, audio, video  -> Attention  -> vectors  -> Vector data [array of numbers]
+
+Model -> 
+    input -> Embeddings -> vectors -> weights,biais 
+
+
+Insurance -> 
+    1. laws -> 
+
+in NJ -> insurnce of a car what i need to follow -> tool calling to validate 
+    1. my claim -> propraitery 
+
+
+traditional ->    Input -> touuper -> cli -> program -> out value
+AI ->             input -> NLP -> convert the word to Ascii -> [capability to do this task] -> output 
+                            AI -> brain knowledge 
+                            AI -> write a python program -> to take a input -> and execute -> output 
+                            AI -> to access the data external data source -> output 
+
+RDBMS: 
+    DQL-> Select query 
+
+VDB: 
+    API -> function(), rest api
+      0,0.1-0.99-1 = db.consinesimilar(v1,v2) -> top k = temperature .70 and above 
+        .MMR
+        .
+
+AI Application 
+    1. how the prompt should be 
+    2. llm -> convert -> embendings -> process -> 
+
+    Build this application []
+    ChatGPT [AI Application] Client     ->  context  ->  intruders ->  GPT-5.2 [LLM] server [SLA - i will not save your data] -> usa -> stateless service 
+memory
+prompt engg 
+propritatry ->
+    my name is vijay
+    hello vijay
+    what 1+1 
+    2
+    can you write a poem on my name 
+    vijay vijay
+
+    aadhaar details 
+
+GPT 5.2 -> tool calling -> api's -> add a backround of current weather of bangalore to my image 
+    1. weather -> json -> weather.com/api/
+    1a. sunny or rainny 
+    2. image ->
+    3. update the image with the weather , add backgraound with rainny season 

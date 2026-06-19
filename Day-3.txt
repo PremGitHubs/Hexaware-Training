@@ -1,0 +1,64 @@
+Recap: 
+    1. AI Solution: Langchain Framework: Components: schema, memory, prompt, model 
+    2. Limitations of LLM 
+        1. State less
+        2. Limit of tokens for request
+        3. There is no control for the out put generation 
+        4. Memory 
+        5. model selection for specific task
+            text processing -> mistral 
+            indepth analysis -> gpt-4o
+            image -> Dall-e
+        6. Context 
+        7. tool caling -> real time data, cutom data,
+            LLM -> Rest API, current bangalore weather -> 
+
+What options for developing the AI Solutions 
+    AI Solutions:
+        1. GenAI [Langchain]
+        2. Agentic AI [Langgraph]
+
+    Develop:
+        1. Code [Langchain, Autogen, Semanitc Kernel ... ] - opensource 
+        2. No Code [n8n, aws agents, azure, agents, Replit] - 
+            n8n -> Service now, Confulance 
+                   your database or application
+
+    Client [AI Solution Gen AI ]     -> communication                  ->      LLM [Serve]
+        Secham -> 
+            request -> System Instruction, Humman Message [Json]
+            response -> AI Response [Json]
+
+        1. Text
+        2. Conversation -> 
+        3. document 
+
+        Schema: 
+        Class document {
+            pagecontent []
+            metadata
+        }
+
+        doc[0] = pdf extract 
+
+        Models: Model Card -> 
+        Types of models 
+            1. basic model -> text input -> text output 
+            2.  -> model + tool caling -> function
+            3. TextEmbeding ->  text input -> vector array
+
+
+Setup: 
+
+    1. Jypter -> python extention notes as well code 
+
+AI Application: 
+    SI: you are a AI Network Support Chat Bot
+    Context: pdf
+    question: internet is not working 
+    OI: response in polite tone only for the networking 
+        details if any other question is asked answer i am not aware of it 
+
+
+ChatGPT -> enduser 
+chat bot support application -> AI developers -> templates

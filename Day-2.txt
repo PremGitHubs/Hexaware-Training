@@ -1,0 +1,95 @@
+Recap: 
+    1. GenAI 
+        chatgpt [Ai Appllication] [Client] ->  LLM [stateless service] [Server] 
+        Copilot
+        Claude
+            Inferencing
+
+    VS Code editor 
+    Copilot Plugin - client app - LLM server
+
+Todays Topics:
+    1. LLM: Vendor -> on prem, AWS, Azure, Google, HF, openai, antropic -> LLM model []  -> deploy access it via api 
+        SLM -> bundled in CCTV -> C/S
+    2. Frameworks -> 
+        1. Langchain, Autogen, Semantic kernel, MAF 
+
+Deploy -> 
+    1. resource -> shared resource 
+    2. making a api -> processing 
+
+input 1000 [272k tokens 1 request] tokens 1m - 2.75
+cache 1000 tokens 1m - 0.25
+out   10 characters response 1m - 16
+
+prompt engg -> 
+
+chat with pdf: 
+    1. pdf -> 271 pages 271k ->  LLM + quiestion get the email id from the book 
+    2. pdf -> 400 -> 400k -> [ 1 request 1000k] -> LLM + quiestion get the email id from the book 
+
+chatgpt [client]  -> llm 
+
+uploading to client chatgpt -> llm 
+
+GAI -> 
+    LLM -> generate pdf -> python -> executed -> cache
+
+Chat gpt -> 
+    1. PL -> Python -> Framework Langchain -> GenAI Application 
+        1. set of rules to build an application 
+
+1. LLM limitation 
+    1. State less
+    2. Limit of tokens for request
+    3. There is no control for the out put generation 
+    4. Memory 
+    5. model selection for specific task
+        text processing -> mistral 
+        indepth analysis -> gpt-4o
+        image -> Dall-e
+    6. Context 
+    7. tool caling -> real time data, cutom data,
+        LLM -> Rest API, current bangalore weather -> 
+
+add the background for my image of current weather
+    1. gpt-4o -> current weather -> json
+    2. text processing -> json -> rainy season 
+    3. image generation -> Dall e
+
+Hallucination -> 
+    LLM -> Generative tool
+        1. financial domain  
+        2. geoloaction 
+        3. medical domain
+
+    Prompt engg-> context enablement for better response 
+    prompt templating ->
+        System Instruction: you are a financial domain expert answer all all question wtih this context 
+        prompt -> where is the bank in chennai ?
+        Ans: place hv sbi bank
+
+mathematic -> basic knowlege  -> llm 
+    1. financial -> [propeityr details ]
+    2. medical                  
+
+1. Fully Autonomous with human in/on the loop
+        in approval activity -> after certain limits -> 
+        on will observe the activity -> generate report send it accross with futher predictions -> 
+
+Microservice:
+Cluster -> orcastrator -> 3.0
+    1. service -> AI ML ->  
+
+GenAI-> 
+        Clinet -> UI -> question -> llm -> answer
+Agentic AI -> 
+    
+    client -> UI -> Question -> Orcastrator [selection of the agent] [where is the bank of sbi]
+                                    1. GenAI - Agents -> financial domain
+                                    2. GenAI - Agents -> healtcare
+                                    3. GenAI - Agents -> geo lacation 
+
+ERP -> 
+    agents -> gradrailled maanner 
+    -> Expose API -> no code approach -> azure agents 

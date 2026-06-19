@@ -1,0 +1,81 @@
+Recap:
+    1. AI Solution: Langchain Framework: Components: model, schema, prompt, Chain, memory
+    2. Limitations of LLM 
+        1. State less -> memory -> Pormpt+Memory -> 272k tokens ->  llm
+            1. Conversationbuffermemory -> 
+            2. conversationbufferwindowmemory -> 
+            3. conversationsummarymemory -> 
+                memory > 272k > summrize the conversation -> llm ->  
+            4. conversationtokenbuffermemory
+        2. Limit of tokens for request
+        3. There is no control for the out put generation -> prompt -> xml, json, one word
+        4. Memory 
+        5. model selection for specific task -> Chains
+            text processing -> mistral 
+            indepth analysis -> gpt-4o
+            image -> Dall-e
+        6. Context 
+        7. tool caling -> real time data, cutom data,
+            LLM -> Rest API, current bangalore weather -> 
+
+    1. pdf -> llm 
+        1. thinking pattern client -> selective data is sent for the llm from the pdf 
+
+Todays Topics: 
+    1. RAG Implementation 
+    2. Agentic AI Theory
+    3. Azure Agent Creation [No Code]
+    4. Replit [Platform for Application Development]
+
+
+1. agent -> personal, shared
+
+
+
+
+
+messages: 
+    SI
+    HM
+    AI -> 
+    RAG + HM1
+
+V 1.0
+Langchain -> genai
+langgraph -> agent ai 
+
+
+HR Recruitemnt application : System Desinger, solution architects, AI Architect
+    AI -> Data scientist ->
+          Data Engg->  SLM -> train -> evaluate -> testing -> LLM evaluation 
+
+    Application -> 
+        AI Developers -> 
+        AI user -> 
+
+sse java inhouse 
+sse java from naukri 
+sse java from any source
+
+    orcastrator -> when to call which agent 
+
+    1.  -> job description agent 
+    2. prepare jd -> nosql
+    3. source the profile -> inhose -> naukri -> api -> json -> mongodb
+    4. rite candidate -> 
+    5. interect in the job opening 
+    6. schedue a interview -> online 
+    7. select 
+    8. negotiation 
+    9. offer 
+
+    ADLC -> Hypothesis -> solution -> respose time less 1 min, accuracy -> 75%, 
+            Observabilty -> 
+            ACT -> 
+            deploy -> 
+
+OpenAI -> gpt5.2 -> datacenter -> 5L -> 8gpu -> 512mb
+    ryzen - 1500$
+
+
+1. algo + data base ->  train -> base model  -> foundation model -> business data 
